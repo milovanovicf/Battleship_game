@@ -1,0 +1,48 @@
+div#board {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    background: url("sea2.jpeg") no-repeat;
+    background-size: cover;
+    }
+div#messageArea {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        color: rgb(83, 175, 19);
+       }
+       table {
+        position: absolute;
+        right: 150px;
+        top: 180px;
+        border: solid 3px black;
+        border-collapse: collapse;
+      }
+      td {
+        width: 70px;
+        height: 50px;
+        border: solid 3px black;
+        
+      }
+      
+  form {
+ position: absolute;
+ top: 0px;
+ right: 0px;
+ padding: 15px;
+ background-color: #eee;
+ border: 1px solid black;
+}
+form input {
+ background-color: #eee;
+ border-color: #000;
+ font-size: 1em;
+}
+  
+.hit {
+    background: url("boat2-removebg-preview.png") no-repeat center center;
+   }
+   .miss {
+    background: url("miss.png") no-repeat center center;
+   }
